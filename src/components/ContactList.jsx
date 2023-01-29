@@ -21,7 +21,7 @@ export const ContactList = ({ contacts, onDeleteContact }) => {
                 ))}
             </ContactsList>
     )
-};;
+};
 
 ContactList.propTypes = {
     onDeleteContact: PropTypes.func.isRequired,
