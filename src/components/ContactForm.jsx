@@ -8,7 +8,6 @@ export const ContactForm = ({onAddContact}) => {
 
     const handleChange = event => {
         const { name, value } = event.target;
-        console.log(name);
 
         switch (name) {
             case "name":
